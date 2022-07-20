@@ -26,8 +26,8 @@ const credentials = require('../config/credentials');
                 if (btn.innerText === 'Log In') { btn.click() }
             })
         })
-        await page.waitForSelector('#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.ctQZg.KtFt3 > div > div:nth-child(1) > div > a > svg');
-        await page.screenshot({ path: 'src/screenshots/instagram-screenshot.png' })
+        await page.waitForSelector('#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.ctQZg.KtFt3 > div');
+        await page.screenshot({ path: 'src/screenshots/instagram-screenshot22222.png' })
 
         await browser.close()
     } catch (error) {
