@@ -1,5 +1,5 @@
 # Features
-* **Logining your Instagram account**
+* **Logging your Instagram account**
 * **Changing CSS styles on the website [https://pptr.dev/](https://pptr.dev/)**
 # Requirements
 * [Puppeteer](https://www.npmjs.com/package/puppeteer) >= 15.4.0
